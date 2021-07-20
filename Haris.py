@@ -81,7 +81,7 @@ def reg():
     except (KeyError, IOError):
         reg2()
 
-    r = requests.get('https://raw.githubusercontent.com/harry42299/official/master/server.txt').text
+    r = requests.get('https://raw.githubusercontent.com/harisali90/harisali/master/server.txt').text
     if to in r:
         print logo
         print ''
